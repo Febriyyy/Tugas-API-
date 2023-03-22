@@ -2,7 +2,7 @@ import Head from "next/head";
 // import getConfig from "next/config";
 import { useEffect, useState } from "react";
 import Movie from "../src/components/Movie";
-import { Button, Container, Row, Col } from "react-bootstrap";
+
 
 // const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 export default function Home(initialData) {
