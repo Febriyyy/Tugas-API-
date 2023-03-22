@@ -79,7 +79,7 @@ const search = async (event) => {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   let trendingMovies = await fetch(
     `https://api.themoviedb.org/3/movie/popular?api_key=373c68c6c8a3b6850ced92a5e20d6541`
   );
