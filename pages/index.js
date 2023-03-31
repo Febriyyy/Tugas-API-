@@ -1,7 +1,7 @@
 import Head from "next/head";
 // import getConfig from "next/config";
 import { useEffect, useState } from "react";
-import Movie from "../src/components/Movie";
+import Movie from "../src/components/movie";
 
 
 // const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
